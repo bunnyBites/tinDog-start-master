@@ -10,6 +10,15 @@ h1 {
   color: #fff;
 }
 
+h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+h3 { font-weight: bold; }
+
 .container-fluid { padding: 3% 20%; }
 
 #title { background-color: #ff4c68; }
@@ -27,4 +36,41 @@ h1 {
 .nav-link {
   font-family: "Montserrat";
   font-weight: lighter;
+}
+
+/* feature section */
+
+#features { padding: 8% 15% }
+
+.feature-icon {
+  color: #ef8172;
+  padding-bottom: 9px;
+}
+
+.feature-icon:hover { color: #ff4c68; }
+
+/* testimonials section */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.carousel-inner { padding: 5% 12%; }
+
+.testimonial-image {
+  border-radius: 100%;
+  margin-right: 9px;
+}
+
+/* press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+.press-logo {
+  width: 14rem;
+  margin: 2% 3%;
 }
