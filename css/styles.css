@@ -85,16 +85,14 @@ h3 { font-weight: bold; }
   margin: 2% 3%;
 }
 
-@media screen and (max-width: 980px) {
-  .title-image {
-    position: static;
-    transform: rotate(0);
-    width: 30%;
-    margin: 5% 0;
-  }
-
-  #title { text-align: center; }
+/* pricing section */
+#pricing {
+  padding: 5% 4%;
+  text-align: center;
 }
+
+.price-card-container { margin-top: 5%; }
+.price-card { text-align: center; }
 
 /* cta section */
 #cta {
@@ -116,4 +114,15 @@ h3 { font-weight: bold; }
   background-color: #fff;
 }
 
-.footer-icon { padding: 4% 1% 2%; }
+.footer-icon { padding: 4% 1% 1%; }
+
+@media screen and (max-width: 980px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 30%;
+    margin: 5% 0;
+  }
+
+  #title { text-align: center; }
+}
